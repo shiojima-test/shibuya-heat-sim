@@ -1,0 +1,940 @@
+{
+  "timeline": [
+    "06:00",
+    "06:30",
+    "07:00",
+    "07:30",
+    "08:00",
+    "08:30",
+    "09:00",
+    "09:30",
+    "10:00",
+    "10:30",
+    "11:00",
+    "11:30",
+    "12:00",
+    "12:30",
+    "13:00",
+    "13:30",
+    "14:00",
+    "14:30",
+    "15:00",
+    "15:30",
+    "16:00",
+    "16:30",
+    "17:00",
+    "17:30",
+    "18:00",
+    "18:30",
+    "19:00",
+    "19:30",
+    "20:00"
+  ],
+  "areas": {
+    "hachiko": {
+      "name": "渋谷駅ハチ公前",
+      "lat": 35.659,
+      "lng": 139.7005,
+      "data": [
+        {
+          "time": "06:00",
+          "temp": 25.1,
+          "humidity": 60.0,
+          "wbgt": 25.8
+        },
+        {
+          "time": "06:30",
+          "temp": 25.9,
+          "humidity": 63.0,
+          "wbgt": 26.9
+        },
+        {
+          "time": "07:00",
+          "temp": 27.5,
+          "humidity": 70.0,
+          "wbgt": 29.6
+        },
+        {
+          "time": "07:30",
+          "temp": 28.7,
+          "humidity": 61.0,
+          "wbgt": 29.7
+        },
+        {
+          "time": "08:00",
+          "temp": 29.3,
+          "humidity": 60.0,
+          "wbgt": 30.2
+        },
+        {
+          "time": "08:30",
+          "temp": 30.0,
+          "humidity": 68.0,
+          "wbgt": 32.3
+        },
+        {
+          "time": "09:00",
+          "temp": 30.8,
+          "humidity": 63.0,
+          "wbgt": 32.4
+        },
+        {
+          "time": "09:30",
+          "temp": 32.2,
+          "humidity": 68.0,
+          "wbgt": 35.1
+        },
+        {
+          "time": "10:00",
+          "temp": 32.5,
+          "humidity": 69.0,
+          "wbgt": 35.7
+        },
+        {
+          "time": "10:30",
+          "temp": 33.8,
+          "humidity": 60.0,
+          "wbgt": 35.5
+        },
+        {
+          "time": "11:00",
+          "temp": 34.3,
+          "humidity": 70.0,
+          "wbgt": 38.4
+        },
+        {
+          "time": "11:30",
+          "temp": 34.3,
+          "humidity": 62.0,
+          "wbgt": 36.6
+        },
+        {
+          "time": "12:00",
+          "temp": 35.2,
+          "humidity": 65.0,
+          "wbgt": 38.4
+        },
+        {
+          "time": "12:30",
+          "temp": 34.5,
+          "humidity": 61.0,
+          "wbgt": 36.8
+        },
+        {
+          "time": "13:00",
+          "temp": 35.3,
+          "humidity": 69.0,
+          "wbgt": 39.5
+        },
+        {
+          "time": "13:30",
+          "temp": 35.2,
+          "humidity": 71.0,
+          "wbgt": 39.8
+        },
+        {
+          "time": "14:00",
+          "temp": 34.8,
+          "humidity": 75.0,
+          "wbgt": 40.0
+        },
+        {
+          "time": "14:30",
+          "temp": 34.3,
+          "humidity": 68.0,
+          "wbgt": 37.9
+        },
+        {
+          "time": "15:00",
+          "temp": 34.3,
+          "humidity": 69.0,
+          "wbgt": 38.2
+        },
+        {
+          "time": "15:30",
+          "temp": 33.8,
+          "humidity": 69.0,
+          "wbgt": 37.3
+        },
+        {
+          "time": "16:00",
+          "temp": 33.0,
+          "humidity": 61.0,
+          "wbgt": 34.7
+        },
+        {
+          "time": "16:30",
+          "temp": 31.8,
+          "humidity": 64.0,
+          "wbgt": 33.9
+        },
+        {
+          "time": "17:00",
+          "temp": 30.8,
+          "humidity": 63.0,
+          "wbgt": 32.5
+        },
+        {
+          "time": "17:30",
+          "temp": 29.9,
+          "humidity": 64.0,
+          "wbgt": 31.6
+        },
+        {
+          "time": "18:00",
+          "temp": 29.5,
+          "humidity": 65.0,
+          "wbgt": 31.2
+        },
+        {
+          "time": "18:30",
+          "temp": 28.2,
+          "humidity": 63.0,
+          "wbgt": 29.4
+        },
+        {
+          "time": "19:00",
+          "temp": 27.0,
+          "humidity": 74.0,
+          "wbgt": 29.6
+        },
+        {
+          "time": "19:30",
+          "temp": 26.3,
+          "humidity": 69.0,
+          "wbgt": 28.1
+        },
+        {
+          "time": "20:00",
+          "temp": 24.7,
+          "humidity": 71.0,
+          "wbgt": 26.6
+        }
+      ]
+    },
+    "scramble": {
+      "name": "スクランブル交差点",
+      "lat": 35.6595,
+      "lng": 139.7004,
+      "data": [
+        {
+          "time": "06:00",
+          "temp": 26.7,
+          "humidity": 66.0,
+          "wbgt": 28.1
+        },
+        {
+          "time": "06:30",
+          "temp": 28.6,
+          "humidity": 70.0,
+          "wbgt": 30.9
+        },
+        {
+          "time": "07:00",
+          "temp": 29.3,
+          "humidity": 70.0,
+          "wbgt": 31.8
+        },
+        {
+          "time": "07:30",
+          "temp": 30.6,
+          "humidity": 72.0,
+          "wbgt": 33.7
+        },
+        {
+          "time": "08:00",
+          "temp": 31.1,
+          "humidity": 60.0,
+          "wbgt": 32.3
+        },
+        {
+          "time": "08:30",
+          "temp": 32.1,
+          "humidity": 64.0,
+          "wbgt": 34.2
+        },
+        {
+          "time": "09:00",
+          "temp": 32.9,
+          "humidity": 74.0,
+          "wbgt": 37.2
+        },
+        {
+          "time": "09:30",
+          "temp": 34.4,
+          "humidity": 65.0,
+          "wbgt": 37.3
+        },
+        {
+          "time": "10:00",
+          "temp": 35.0,
+          "humidity": 66.0,
+          "wbgt": 38.3
+        },
+        {
+          "time": "10:30",
+          "temp": 35.9,
+          "humidity": 67.0,
+          "wbgt": 39.8
+        },
+        {
+          "time": "11:00",
+          "temp": 35.8,
+          "humidity": 64.0,
+          "wbgt": 38.9
+        },
+        {
+          "time": "11:30",
+          "temp": 36.5,
+          "humidity": 64.0,
+          "wbgt": 40.0
+        },
+        {
+          "time": "12:00",
+          "temp": 36.8,
+          "humidity": 73.0,
+          "wbgt": 42.8
+        },
+        {
+          "time": "12:30",
+          "temp": 36.8,
+          "humidity": 63.0,
+          "wbgt": 40.3
+        },
+        {
+          "time": "13:00",
+          "temp": 37.5,
+          "humidity": 68.0,
+          "wbgt": 42.3
+        },
+        {
+          "time": "13:30",
+          "temp": 36.5,
+          "humidity": 61.0,
+          "wbgt": 39.2
+        },
+        {
+          "time": "14:00",
+          "temp": 36.4,
+          "humidity": 69.0,
+          "wbgt": 41.1
+        },
+        {
+          "time": "14:30",
+          "temp": 36.7,
+          "humidity": 66.0,
+          "wbgt": 40.9
+        },
+        {
+          "time": "15:00",
+          "temp": 35.6,
+          "humidity": 66.0,
+          "wbgt": 39.1
+        },
+        {
+          "time": "15:30",
+          "temp": 36.0,
+          "humidity": 68.0,
+          "wbgt": 40.2
+        },
+        {
+          "time": "16:00",
+          "temp": 35.3,
+          "humidity": 73.0,
+          "wbgt": 40.3
+        },
+        {
+          "time": "16:30",
+          "temp": 33.6,
+          "humidity": 71.0,
+          "wbgt": 37.4
+        },
+        {
+          "time": "17:00",
+          "temp": 33.4,
+          "humidity": 68.0,
+          "wbgt": 36.7
+        },
+        {
+          "time": "17:30",
+          "temp": 32.1,
+          "humidity": 70.0,
+          "wbgt": 35.2
+        },
+        {
+          "time": "18:00",
+          "temp": 31.0,
+          "humidity": 67.0,
+          "wbgt": 33.2
+        },
+        {
+          "time": "18:30",
+          "temp": 30.3,
+          "humidity": 74.0,
+          "wbgt": 33.7
+        },
+        {
+          "time": "19:00",
+          "temp": 29.6,
+          "humidity": 64.0,
+          "wbgt": 31.1
+        },
+        {
+          "time": "19:30",
+          "temp": 28.1,
+          "humidity": 63.0,
+          "wbgt": 29.3
+        },
+        {
+          "time": "20:00",
+          "temp": 27.4,
+          "humidity": 73.0,
+          "wbgt": 30.0
+        }
+      ]
+    },
+    "center": {
+      "name": "センター街",
+      "lat": 35.6604,
+      "lng": 139.6988,
+      "data": [
+        {
+          "time": "06:00",
+          "temp": 25.8,
+          "humidity": 70.0,
+          "wbgt": 27.7
+        },
+        {
+          "time": "06:30",
+          "temp": 27.2,
+          "humidity": 62.0,
+          "wbgt": 28.2
+        },
+        {
+          "time": "07:00",
+          "temp": 28.5,
+          "humidity": 68.0,
+          "wbgt": 30.5
+        },
+        {
+          "time": "07:30",
+          "temp": 29.6,
+          "humidity": 68.0,
+          "wbgt": 31.8
+        },
+        {
+          "time": "08:00",
+          "temp": 29.8,
+          "humidity": 65.0,
+          "wbgt": 31.6
+        },
+        {
+          "time": "08:30",
+          "temp": 30.8,
+          "humidity": 74.0,
+          "wbgt": 34.4
+        },
+        {
+          "time": "09:00",
+          "temp": 32.6,
+          "humidity": 72.0,
+          "wbgt": 36.5
+        },
+        {
+          "time": "09:30",
+          "temp": 32.9,
+          "humidity": 61.0,
+          "wbgt": 34.5
+        },
+        {
+          "time": "10:00",
+          "temp": 34.2,
+          "humidity": 74.0,
+          "wbgt": 39.0
+        },
+        {
+          "time": "10:30",
+          "temp": 34.1,
+          "humidity": 67.0,
+          "wbgt": 37.4
+        },
+        {
+          "time": "11:00",
+          "temp": 34.6,
+          "humidity": 71.0,
+          "wbgt": 39.0
+        },
+        {
+          "time": "11:30",
+          "temp": 35.7,
+          "humidity": 62.0,
+          "wbgt": 38.4
+        },
+        {
+          "time": "12:00",
+          "temp": 35.7,
+          "humidity": 68.0,
+          "wbgt": 39.9
+        },
+        {
+          "time": "12:30",
+          "temp": 35.7,
+          "humidity": 73.0,
+          "wbgt": 41.0
+        },
+        {
+          "time": "13:00",
+          "temp": 35.9,
+          "humidity": 63.0,
+          "wbgt": 39.0
+        },
+        {
+          "time": "13:30",
+          "temp": 36.0,
+          "humidity": 71.0,
+          "wbgt": 40.9
+        },
+        {
+          "time": "14:00",
+          "temp": 35.5,
+          "humidity": 65.0,
+          "wbgt": 38.7
+        },
+        {
+          "time": "14:30",
+          "temp": 35.9,
+          "humidity": 70.0,
+          "wbgt": 40.5
+        },
+        {
+          "time": "15:00",
+          "temp": 34.9,
+          "humidity": 68.0,
+          "wbgt": 38.7
+        },
+        {
+          "time": "15:30",
+          "temp": 34.1,
+          "humidity": 63.0,
+          "wbgt": 36.6
+        },
+        {
+          "time": "16:00",
+          "temp": 33.7,
+          "humidity": 69.0,
+          "wbgt": 37.1
+        },
+        {
+          "time": "16:30",
+          "temp": 32.8,
+          "humidity": 63.0,
+          "wbgt": 34.9
+        },
+        {
+          "time": "17:00",
+          "temp": 31.8,
+          "humidity": 69.0,
+          "wbgt": 34.8
+        },
+        {
+          "time": "17:30",
+          "temp": 31.0,
+          "humidity": 74.0,
+          "wbgt": 34.6
+        },
+        {
+          "time": "18:00",
+          "temp": 30.7,
+          "humidity": 61.0,
+          "wbgt": 31.9
+        },
+        {
+          "time": "18:30",
+          "temp": 29.0,
+          "humidity": 70.0,
+          "wbgt": 31.5
+        },
+        {
+          "time": "19:00",
+          "temp": 27.9,
+          "humidity": 62.0,
+          "wbgt": 29.0
+        },
+        {
+          "time": "19:30",
+          "temp": 27.6,
+          "humidity": 69.0,
+          "wbgt": 29.5
+        },
+        {
+          "time": "20:00",
+          "temp": 26.0,
+          "humidity": 72.0,
+          "wbgt": 28.1
+        }
+      ]
+    },
+    "miyashita": {
+      "name": "宮下パーク",
+      "lat": 35.6609,
+      "lng": 139.7027,
+      "data": [
+        {
+          "time": "06:00",
+          "temp": 24.3,
+          "humidity": 63.0,
+          "wbgt": 25.2
+        },
+        {
+          "time": "06:30",
+          "temp": 24.7,
+          "humidity": 66.0,
+          "wbgt": 26.1
+        },
+        {
+          "time": "07:00",
+          "temp": 26.1,
+          "humidity": 67.0,
+          "wbgt": 27.7
+        },
+        {
+          "time": "07:30",
+          "temp": 27.5,
+          "humidity": 70.0,
+          "wbgt": 29.7
+        },
+        {
+          "time": "08:00",
+          "temp": 28.8,
+          "humidity": 61.0,
+          "wbgt": 29.9
+        },
+        {
+          "time": "08:30",
+          "temp": 29.2,
+          "humidity": 65.0,
+          "wbgt": 30.9
+        },
+        {
+          "time": "09:00",
+          "temp": 30.6,
+          "humidity": 64.0,
+          "wbgt": 32.3
+        },
+        {
+          "time": "09:30",
+          "temp": 30.8,
+          "humidity": 67.0,
+          "wbgt": 33.0
+        },
+        {
+          "time": "10:00",
+          "temp": 31.7,
+          "humidity": 64.0,
+          "wbgt": 33.8
+        },
+        {
+          "time": "10:30",
+          "temp": 32.2,
+          "humidity": 74.0,
+          "wbgt": 36.2
+        },
+        {
+          "time": "11:00",
+          "temp": 33.0,
+          "humidity": 73.0,
+          "wbgt": 37.0
+        },
+        {
+          "time": "11:30",
+          "temp": 33.5,
+          "humidity": 61.0,
+          "wbgt": 35.3
+        },
+        {
+          "time": "12:00",
+          "temp": 34.2,
+          "humidity": 73.0,
+          "wbgt": 38.7
+        },
+        {
+          "time": "12:30",
+          "temp": 34.4,
+          "humidity": 74.0,
+          "wbgt": 39.3
+        },
+        {
+          "time": "13:00",
+          "temp": 34.3,
+          "humidity": 62.0,
+          "wbgt": 36.7
+        },
+        {
+          "time": "13:30",
+          "temp": 33.9,
+          "humidity": 63.0,
+          "wbgt": 36.3
+        },
+        {
+          "time": "14:00",
+          "temp": 33.7,
+          "humidity": 61.0,
+          "wbgt": 35.5
+        },
+        {
+          "time": "14:30",
+          "temp": 33.3,
+          "humidity": 75.0,
+          "wbgt": 37.9
+        },
+        {
+          "time": "15:00",
+          "temp": 32.8,
+          "humidity": 72.0,
+          "wbgt": 36.5
+        },
+        {
+          "time": "15:30",
+          "temp": 32.4,
+          "humidity": 66.0,
+          "wbgt": 35.0
+        },
+        {
+          "time": "16:00",
+          "temp": 32.3,
+          "humidity": 75.0,
+          "wbgt": 36.5
+        },
+        {
+          "time": "16:30",
+          "temp": 31.1,
+          "humidity": 71.0,
+          "wbgt": 34.2
+        },
+        {
+          "time": "17:00",
+          "temp": 29.9,
+          "humidity": 64.0,
+          "wbgt": 31.6
+        },
+        {
+          "time": "17:30",
+          "temp": 29.8,
+          "humidity": 69.0,
+          "wbgt": 32.1
+        },
+        {
+          "time": "18:00",
+          "temp": 28.4,
+          "humidity": 71.0,
+          "wbgt": 30.9
+        },
+        {
+          "time": "18:30",
+          "temp": 26.9,
+          "humidity": 69.0,
+          "wbgt": 28.7
+        },
+        {
+          "time": "19:00",
+          "temp": 26.2,
+          "humidity": 73.0,
+          "wbgt": 28.6
+        },
+        {
+          "time": "19:30",
+          "temp": 24.8,
+          "humidity": 74.0,
+          "wbgt": 27.1
+        },
+        {
+          "time": "20:00",
+          "temp": 23.6,
+          "humidity": 63.0,
+          "wbgt": 24.5
+        }
+      ]
+    },
+    "yoyogi": {
+      "name": "代々木公園",
+      "lat": 35.6713,
+      "lng": 139.6949,
+      "data": [
+        {
+          "time": "06:00",
+          "temp": 22.1,
+          "humidity": 70.0,
+          "wbgt": 23.8
+        },
+        {
+          "time": "06:30",
+          "temp": 22.9,
+          "humidity": 62.0,
+          "wbgt": 23.7
+        },
+        {
+          "time": "07:00",
+          "temp": 24.6,
+          "humidity": 64.0,
+          "wbgt": 25.6
+        },
+        {
+          "time": "07:30",
+          "temp": 25.4,
+          "humidity": 69.0,
+          "wbgt": 27.2
+        },
+        {
+          "time": "08:00",
+          "temp": 26.3,
+          "humidity": 69.0,
+          "wbgt": 28.1
+        },
+        {
+          "time": "08:30",
+          "temp": 27.3,
+          "humidity": 74.0,
+          "wbgt": 30.0
+        },
+        {
+          "time": "09:00",
+          "temp": 27.9,
+          "humidity": 71.0,
+          "wbgt": 30.3
+        },
+        {
+          "time": "09:30",
+          "temp": 28.8,
+          "humidity": 66.0,
+          "wbgt": 30.5
+        },
+        {
+          "time": "10:00",
+          "temp": 30.0,
+          "humidity": 64.0,
+          "wbgt": 31.7
+        },
+        {
+          "time": "10:30",
+          "temp": 30.3,
+          "humidity": 71.0,
+          "wbgt": 33.2
+        },
+        {
+          "time": "11:00",
+          "temp": 30.6,
+          "humidity": 67.0,
+          "wbgt": 32.8
+        },
+        {
+          "time": "11:30",
+          "temp": 31.9,
+          "humidity": 75.0,
+          "wbgt": 36.0
+        },
+        {
+          "time": "12:00",
+          "temp": 31.3,
+          "humidity": 63.0,
+          "wbgt": 33.1
+        },
+        {
+          "time": "12:30",
+          "temp": 31.7,
+          "humidity": 74.0,
+          "wbgt": 35.5
+        },
+        {
+          "time": "13:00",
+          "temp": 32.4,
+          "humidity": 73.0,
+          "wbgt": 36.3
+        },
+        {
+          "time": "13:30",
+          "temp": 31.8,
+          "humidity": 62.0,
+          "wbgt": 33.5
+        },
+        {
+          "time": "14:00",
+          "temp": 32.1,
+          "humidity": 71.0,
+          "wbgt": 35.4
+        },
+        {
+          "time": "14:30",
+          "temp": 31.6,
+          "humidity": 75.0,
+          "wbgt": 35.5
+        },
+        {
+          "time": "15:00",
+          "temp": 31.2,
+          "humidity": 60.0,
+          "wbgt": 32.3
+        },
+        {
+          "time": "15:30",
+          "temp": 30.8,
+          "humidity": 64.0,
+          "wbgt": 32.6
+        },
+        {
+          "time": "16:00",
+          "temp": 30.0,
+          "humidity": 74.0,
+          "wbgt": 33.3
+        },
+        {
+          "time": "16:30",
+          "temp": 28.7,
+          "humidity": 62.0,
+          "wbgt": 29.8
+        },
+        {
+          "time": "17:00",
+          "temp": 27.8,
+          "humidity": 68.0,
+          "wbgt": 29.8
+        },
+        {
+          "time": "17:30",
+          "temp": 27.1,
+          "humidity": 69.0,
+          "wbgt": 29.0
+        },
+        {
+          "time": "18:00",
+          "temp": 26.6,
+          "humidity": 63.0,
+          "wbgt": 27.6
+        },
+        {
+          "time": "18:30",
+          "temp": 25.4,
+          "humidity": 64.0,
+          "wbgt": 26.5
+        },
+        {
+          "time": "19:00",
+          "temp": 24.2,
+          "humidity": 74.0,
+          "wbgt": 26.4
+        },
+        {
+          "time": "19:30",
+          "temp": 23.5,
+          "humidity": 61.0,
+          "wbgt": 24.2
+        },
+        {
+          "time": "20:00",
+          "temp": 21.9,
+          "humidity": 64.0,
+          "wbgt": 23.0
+        }
+      ]
+    }
+  }
+}

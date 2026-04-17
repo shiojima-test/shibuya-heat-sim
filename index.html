@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>渋谷ヒートシム v1.0</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>渋谷ヒートシム 〜すいかばマンと学ぶ暑さ対策〜</h1>
+  <span class="ver">v1.0</span>
+  <div class="live-badge"><span class="live-dot"></span>LIVE</div>
+</header>
+
+<div class="app">
+  <div id="map"></div>
+  <aside class="sidebar">
+    <!-- Time -->
+    <div class="panel-card">
+      <div class="panel-label">現在時刻</div>
+      <div class="time-display" id="sideTime">--:--</div>
+    </div>
+
+    <!-- WBGT -->
+    <div class="panel-card">
+      <div class="panel-label">WBGT（暑さ指数）</div>
+      <div class="wbgt-big" id="wbgtVal">--</div>
+      <div class="wbgt-rank" id="wbgtRank">--</div>
+      <div class="danger-area" id="dangerArea"></div>
+    </div>
+
+    <!-- Legend -->
+    <div class="legend">
+      <div class="legend-item"><div class="legend-dot" style="background:#2E8EC4"></div>安全</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#5DADE2"></div>注意</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#F1C40F"></div>警戒</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#E88A0A"></div>厳重警戒</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#C0392B"></div>危険</div>
+    </div>
+
+    <!-- Character -->
+    <div class="character">
+      <img src="assets/suikabaman.png" alt="すいかばマン">
+    </div>
+
+    <!-- Advice -->
+    <div class="speech" id="advice">🍉 データを読み込み中...</div>
+  </aside>
+</div>
+
+<!-- Bottom bar -->
+<div class="bottom-bar">
+  <label>時刻</label>
+  <span class="time-val" id="timeVal">--:--</span>
+  <input type="range" id="timeSlider" min="0" max="28" value="0">
+  <button class="play-btn" id="playBtn">▶ 再生</button>
+</div>
+
+<div class="ver-float">v1.0</div>
+<footer>&copy; SchooMy, Inc.</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
