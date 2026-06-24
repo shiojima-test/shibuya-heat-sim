@@ -1,9 +1,12 @@
-// ===== 渋谷ヒートシム v1.0 =====
+// ===== 渋谷ヒートシム v1.1 =====
 let wbgtData = null;
 let map, markers = {};
 let currentIdx = 0;
 let playing = false;
 let playTimer = null;
+
+// 地図中心：SOIL（渋谷金王第二ビル / 渋谷3-6-14）
+const SOIL = { lat: 35.6566, lng: 139.7040, name: 'SOIL（会場）', addr: '渋谷区渋谷3-6-14 渋谷金王第二ビル' };
 
 const COLORS = [
   { max: 21, color: '#2E8EC4', rank: 'ほぼ安全', bg: 'rgba(46,142,196,.12)' },
@@ -30,12 +33,23 @@ function getWbgtInfo(wbgt) {
 
 // Initialize map
 function initMap() {
-  map = L.map('map', { zoomControl: false }).setView([35.6595, 139.7005], 15);
+  map = L.map('map', { zoomControl: false }).setView([SOIL.lat, SOIL.lng], 14);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors',
     maxZoom: 19
   }).addTo(map);
   L.control.zoom({ position: 'topright' }).addTo(map);
+
+  // SOIL venue marker (会場)
+  const venueIcon = L.divIcon({
+    className: '',
+    html: '<div class="venue-pin"><div class="badge">SOIL 会場</div><div class="tip"></div></div>',
+    iconSize: [80, 30],
+    iconAnchor: [40, 30]
+  });
+  L.marker([SOIL.lat, SOIL.lng], { icon: venueIcon, zIndexOffset: 1000 })
+    .addTo(map)
+    .bindPopup(`<div class="popup-title">${SOIL.name}</div><div style="font-size:11px;color:#145A32">${SOIL.addr}</div><div style="margin-top:4px;font-size:11px;font-weight:700;color:#E60012">ロッテ × 東急不動産</div>`, { maxWidth: 220 });
 }
 
 // Load data and initialize
@@ -92,7 +106,7 @@ function updateView() {
       <div style="font-size:11px;color:${info.color};font-weight:700;margin-bottom:6px">${info.rank}</div>
       <div class="popup-row"><span>気温</span><span>${d.temp.toFixed(1)}℃</span></div>
       <div class="popup-row"><span>湿度</span><span>${d.humidity}%</span></div>
-      <div style="margin-top:6px;font-size:11px;color:#1B5E20;font-weight:700">🍉 ${ADVICE[info.rank]}</div>
+      <div style="margin-top:6px;font-size:11px;color:#145A32;font-weight:700">🍉 ${ADVICE[info.rank]}</div>
     `, { maxWidth: 220 });
 
     if (d.wbgt > maxWbgt) {
