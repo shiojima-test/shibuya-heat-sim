@@ -1,4 +1,4 @@
-// ===== 渋谷ヒートシム v1.2 =====
+// ===== 渋谷ヒートシム v1.3 =====
 let wbgtData = null;
 let map, markers = {};
 let currentIdx = 0;
